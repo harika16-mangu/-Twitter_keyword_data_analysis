@@ -1,18 +1,29 @@
-# Twitter Data Analysis - Elon Musk
+## Twitter Data Analysis - Elon Musk
 
-The objective of this project  is to perform keyword network analysis and word frequency analysis on twitter data of Elon Musk from 2010-2022. For this analysis i considered the years 2017-2022. Each year has thousands of tweets for which word frequencies and rank for each year is determined
+💡 Why I Did This:
+Elon Musk is one of the most influential figures on Twitter, often shaping public discourse and market sentiment with a single tweet. I was curious to explore how his language patterns, keyword usage, and topics evolved over time, and whether his tweets followed any interesting linguistic or statistical patterns like Zipf’s Law.
 
-This project focuses on analyzing Elon Musk's Twitter data from 2010 to 2022. The analysis specifically considers the years 2017-2022, treating each year as a document composed of thousands of tweets.
+🎯 What I Did:
 
-## Task Description
+1. Collected Elon Musk's tweets from 2017 to 2022 (thousands of tweets per year)
+2. Treated each year as a separate document for comparison and temporal analysis
+3. Performed the following steps for each year:
+4. Cleaned the tweets and removed stop words
+4. Calculated word frequencies
+5. Extracted Top 10 most-used words
+6. Plotted histograms of word frequencies
+7. Applied Zipf’s Law by generating log-log plots of word rank vs frequency
 
-The following tasks were performed on the Twitter data:
+📌 Key Takeaways:
+1. Identified year-over-year shifts in vocabulary and topic emphasis
+2. Found that Musk’s tweets generally follow Zipf’s Law, revealing natural language distribution
+3.Highlighted the increasing dominance of tech, space, and crypto-related terms in recent years
 
-1. **Word Frequency Calculation**: Word frequencies were computed for each year, excluding stop words.
-2. **Top 10 Words**: The top 10 words with the highest word frequencies were identified for each year.
-3. **Histogram of Word Frequencies**: Histograms of word frequencies were plotted for each year.
-4. **Zipf's Law Analysis**: Log-log plots of word frequencies and rank were generated for each year to analyze Zipf's law.
-5. **Bigram Network Graphs**: Bigram network graphs were created for each year to identify the relationships between words.
+🧰 Tech Stack:
+1. Python
+Libraries: pandas, matplotlib, collections, nltk
+2. Jupyter Notebook for step-by-step analysis and visualizations
+
 
 
 
